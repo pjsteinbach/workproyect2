@@ -1,4 +1,10 @@
 window.addEventListener('load', function() {
+    Swal.fire({
+        title: 'Información modificada',
+        text: 'La información presentada en esta página relacionada con nombres de agentes, entidades y cualquier otro dato sensible, fue modificada para no comprometer la información oficial',
+        icon: 'info',
+        confirmButtonText: 'Ok'
+      });
     const monthSelect = document.getElementById('month');
     const monthNames = [ "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre" ];
     const currentDate = new Date();
@@ -6,7 +12,6 @@ window.addEventListener('load', function() {
     const previousMonthIndex = (currentMonthIndex === 0) ? 11 : currentMonthIndex - 1; const previousMonth = monthNames[previousMonthIndex];
     monthSelect.value = previousMonth;
 });
-
 document.getElementById('agent').addEventListener('change', actualizarActiveWork);
 document.getElementById('active-work').addEventListener('change', actualizarObra);
 document.getElementById('month').addEventListener('change', actualizarObra);
