@@ -802,8 +802,8 @@ function actualizarObra() {
             console.error('Opción seleccionada no válida.');
     }
 
-    referenceParagraph.innerHTML = `PARTE MENSUAL - ${month.toUpperCase()} 2024 - ${resumeEntity.toUpperCase()} - ${resumeWork.toUpperCase()}`;
-    contentParagraph.innerHTML = `Se deja constancia que se han realizado los registros de los reportes diarios suministrados por la ${entity}, perteneciente a la obra con denominación: ${work}, en el municipio de ${municipality}, correspondiente al mes de ${month} de 2024.<br>Se encuentran embebidos los partes semanales.`;
+    referenceParagraph.innerHTML = `PARTE MENSUAL - ${month.toUpperCase()} 2025 - ${resumeEntity.toUpperCase()} - ${resumeWork.toUpperCase()}`;
+    contentParagraph.innerHTML = `Se deja constancia que se han realizado los registros de los reportes diarios suministrados por la ${entity}, perteneciente a la obra con denominación: ${work}, en el municipio de ${municipality}, correspondiente al mes de ${month} de 2025.<br>Se encuentran embebidos los partes semanales.`;
 
     copyIcon.forEach(function(icon) { icon.style.display = 'block'; });
 }
