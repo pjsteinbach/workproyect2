@@ -1025,7 +1025,7 @@ function showCopyCompleteContent(){
 document.getElementById('diary-report').onclick = () => {
   Swal.fire({
     title: 'Registro diario',
-    text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resgaurdar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a un formulario de Google Form para la carga del reporte diario del convenio seleccionado',
+    text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resguardar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a un formulario de Google Form para la carga del reporte diario del convenio seleccionado',
     icon: 'info',
     confirmButtonText: 'Ok'
   });
@@ -1035,7 +1035,7 @@ document.getElementById('diary-report').onclick = () => {
 document.getElementById('weekly-report').onclick = () => {
     Swal.fire({
       title: 'Tabla de reportes',
-      text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resgaurdar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a la planilla de Google Sheets donde se registran los reportes diarios del convenio seleccionado',
+      text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resguardar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a la planilla de Google Sheets donde se registran los reportes diarios del convenio seleccionado',
       icon: 'info',
       confirmButtonText: 'Ok'
     });
@@ -1045,7 +1045,7 @@ document.getElementById('weekly-report').onclick = () => {
   document.getElementById('gsheet-link').onclick = () => {
       Swal.fire({
         title: 'Partes Mensuales',
-        text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resgaurdar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a la planilla de Google Sheets donde se registran los numeros de informes digitales de los partes mensuales del convenio seleccionado',
+        text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resguardar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a la planilla de Google Sheets donde se registran los numeros de informes digitales de los partes mensuales del convenio seleccionado',
         icon: 'info',
         confirmButtonText: 'Ok'
       });
